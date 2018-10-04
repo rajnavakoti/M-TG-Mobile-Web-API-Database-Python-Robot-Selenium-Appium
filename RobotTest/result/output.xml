@@ -1,0 +1,3036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181004 11:29:22.794" generator="Robot 3.0.4 (Python 2.7.10 on win32)">
+<suite source="C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\TestSuites\CBASanityNew.robot" id="s1" name="CBASanityNew">
+<kw type="setup" name="Set Up - Suite">
+<kw name="Load Sanity Test Data" library="TestDataLoading">
+<kw name="Open Excel Document" library="ExcelLibrary">
+<doc>Opens xlsx document file.</doc>
+<arguments>
+<arg>${path_excel}</arg>
+<arg>Sanity_1</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:23.670" starttime="20181004 11:29:23.642"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>2</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.674" level="INFO">${SA_MSISDN} = 59177110067</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.670"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_MSISDN}</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.674" level="INFO">${SA_MSISDN} = 59177110067</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.674"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_MSISDN}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.674" level="INFO">${SA_MSISDN} = 59177110067</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.674"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_MSISDN}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.674" level="INFO">59177110067</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.674"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>3</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN_SKU}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.674" level="INFO">${SA_MSISDN_SKU} = Super Faciles</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.674"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_MSISDN_SKU}</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN_SKU}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.674" level="INFO">${SA_MSISDN_SKU} = Super Faciles</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.674"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_MSISDN_SKU}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.674" level="INFO">${SA_MSISDN_SKU} = Super Faciles</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.674"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_MSISDN_SKU}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.674" level="INFO">Super Faciles</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.674"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>4</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN_Stock}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.674" level="INFO">${SA_MSISDN_Stock} = 0b427067-1655-5402-9ad8-385f47ab0a9b</msg>
+<status status="PASS" endtime="20181004 11:29:23.674" starttime="20181004 11:29:23.674"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_MSISDN_Stock}</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN_Stock}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.678" level="INFO">${SA_MSISDN_Stock} = 0b427067-1655-5402-9ad8-385f47ab0a9b</msg>
+<status status="PASS" endtime="20181004 11:29:23.678" starttime="20181004 11:29:23.678"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_MSISDN_Stock}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.678" level="INFO">${SA_MSISDN_Stock} = 0b427067-1655-5402-9ad8-385f47ab0a9b</msg>
+<status status="PASS" endtime="20181004 11:29:23.678" starttime="20181004 11:29:23.678"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_MSISDN_Stock}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.678" level="INFO">0b427067-1655-5402-9ad8-385f47ab0a9b</msg>
+<status status="PASS" endtime="20181004 11:29:23.678" starttime="20181004 11:29:23.678"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>5</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN_Batch}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.678" level="INFO">${SA_MSISDN_Batch} = d06ceeb0-486c-4abb-a702-816b86dea03a</msg>
+<status status="PASS" endtime="20181004 11:29:23.678" starttime="20181004 11:29:23.678"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_MSISDN_Batch}</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN_Batch}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.678" level="INFO">${SA_MSISDN_Batch} = d06ceeb0-486c-4abb-a702-816b86dea03a</msg>
+<status status="PASS" endtime="20181004 11:29:23.678" starttime="20181004 11:29:23.678"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_MSISDN_Batch}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.683" level="INFO">${SA_MSISDN_Batch} = d06ceeb0-486c-4abb-a702-816b86dea03a</msg>
+<status status="PASS" endtime="20181004 11:29:23.683" starttime="20181004 11:29:23.678"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_MSISDN_Batch}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.683" level="INFO">d06ceeb0-486c-4abb-a702-816b86dea03a</msg>
+<status status="PASS" endtime="20181004 11:29:23.683" starttime="20181004 11:29:23.683"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>6</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.684" level="INFO">${SA_ICC_ID} = 8959103000436022490</msg>
+<status status="PASS" endtime="20181004 11:29:23.684" starttime="20181004 11:29:23.683"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_ICC_ID}</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.684" level="INFO">${SA_ICC_ID} = 8959103000436022490</msg>
+<status status="PASS" endtime="20181004 11:29:23.684" starttime="20181004 11:29:23.684"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_ICC_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.685" level="INFO">${SA_ICC_ID} = 8959103000436022490</msg>
+<status status="PASS" endtime="20181004 11:29:23.685" starttime="20181004 11:29:23.684"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_ICC_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.686" level="INFO">8959103000436022490</msg>
+<status status="PASS" endtime="20181004 11:29:23.686" starttime="20181004 11:29:23.686"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>7</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_IMSI}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.687" level="INFO">${SA_IMSI} = 736030043602249</msg>
+<status status="PASS" endtime="20181004 11:29:23.687" starttime="20181004 11:29:23.687"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_IMSI}</arg>
+</arguments>
+<assign>
+<var>${SA_IMSI}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.688" level="INFO">${SA_IMSI} = 736030043602249</msg>
+<status status="PASS" endtime="20181004 11:29:23.688" starttime="20181004 11:29:23.687"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_IMSI}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.688" level="INFO">${SA_IMSI} = 736030043602249</msg>
+<status status="PASS" endtime="20181004 11:29:23.688" starttime="20181004 11:29:23.688"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_IMSI}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.688" level="INFO">736030043602249</msg>
+<status status="PASS" endtime="20181004 11:29:23.688" starttime="20181004 11:29:23.688"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>8</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_KI}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.689" level="INFO">${SA_KI} = A0DBEFFA1DAE053CFA8FA3F477960CDC</msg>
+<status status="PASS" endtime="20181004 11:29:23.689" starttime="20181004 11:29:23.689"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_KI}</arg>
+</arguments>
+<assign>
+<var>${SA_KI}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.689" level="INFO">${SA_KI} = A0DBEFFA1DAE053CFA8FA3F477960CDC</msg>
+<status status="PASS" endtime="20181004 11:29:23.689" starttime="20181004 11:29:23.689"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_KI}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.690" level="INFO">${SA_KI} = A0DBEFFA1DAE053CFA8FA3F477960CDC</msg>
+<status status="PASS" endtime="20181004 11:29:23.690" starttime="20181004 11:29:23.689"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_KI}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.690" level="INFO">A0DBEFFA1DAE053CFA8FA3F477960CDC</msg>
+<status status="PASS" endtime="20181004 11:29:23.690" starttime="20181004 11:29:23.690"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>9</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_SKU}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.691" level="INFO">${SA_ICC_SKU} = 41316</msg>
+<status status="PASS" endtime="20181004 11:29:23.691" starttime="20181004 11:29:23.690"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_ICC_SKU}</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_SKU}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.691" level="INFO">${SA_ICC_SKU} = 41316</msg>
+<status status="PASS" endtime="20181004 11:29:23.691" starttime="20181004 11:29:23.691"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_ICC_SKU}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.691" level="INFO">${SA_ICC_SKU} = 41316</msg>
+<status status="PASS" endtime="20181004 11:29:23.692" starttime="20181004 11:29:23.691"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_ICC_SKU}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.692" level="INFO">41316</msg>
+<status status="PASS" endtime="20181004 11:29:23.692" starttime="20181004 11:29:23.692"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>10</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_Stock}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.692" level="INFO">${SA_ICC_Stock} = fafdb46e-a15a-5a8b-9281-2fcbdbd247ad</msg>
+<status status="PASS" endtime="20181004 11:29:23.693" starttime="20181004 11:29:23.692"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_ICC_Stock}</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_Stock}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.693" level="INFO">${SA_ICC_Stock} = fafdb46e-a15a-5a8b-9281-2fcbdbd247ad</msg>
+<status status="PASS" endtime="20181004 11:29:23.693" starttime="20181004 11:29:23.693"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_ICC_Stock}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.693" level="INFO">${SA_ICC_Stock} = fafdb46e-a15a-5a8b-9281-2fcbdbd247ad</msg>
+<status status="PASS" endtime="20181004 11:29:23.693" starttime="20181004 11:29:23.693"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_ICC_Stock}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.694" level="INFO">fafdb46e-a15a-5a8b-9281-2fcbdbd247ad</msg>
+<status status="PASS" endtime="20181004 11:29:23.694" starttime="20181004 11:29:23.694"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>11</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_Batch}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.694" level="INFO">${SA_ICC_Batch} = b5c4b5a0-9d7a-5bae-ad5a-9cb88904e2e8</msg>
+<status status="PASS" endtime="20181004 11:29:23.694" starttime="20181004 11:29:23.694"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_ICC_Batch}</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_Batch}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.695" level="INFO">${SA_ICC_Batch} = b5c4b5a0-9d7a-5bae-ad5a-9cb88904e2e8</msg>
+<status status="PASS" endtime="20181004 11:29:23.695" starttime="20181004 11:29:23.694"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_ICC_Batch}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.695" level="INFO">${SA_ICC_Batch} = b5c4b5a0-9d7a-5bae-ad5a-9cb88904e2e8</msg>
+<status status="PASS" endtime="20181004 11:29:23.695" starttime="20181004 11:29:23.695"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_ICC_Batch}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">b5c4b5a0-9d7a-5bae-ad5a-9cb88904e2e8</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.695"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>12</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Zone}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Zone} = Cochabamba</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Zone}</arg>
+</arguments>
+<assign>
+<var>${SA_Zone}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Zone} = Cochabamba</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Zone}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Zone} = Cochabamba</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Zone}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">Cochabamba</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>13</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Reserved_For}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Reserved_For} = Automation3455</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Reserved_For}</arg>
+</arguments>
+<assign>
+<var>${SA_Reserved_For}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Reserved_For} = Automation3455</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Reserved_For}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Reserved_For} = Automation3455</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Reserved_For}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">Automation3455</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>14</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Seller_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Seller_ID} = 10786</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Seller_ID}</arg>
+</arguments>
+<assign>
+<var>${SA_Seller_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Seller_ID} = 10786</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Seller_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Seller_ID} = 10786</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Seller_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">10786</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>15</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Deal_MSISDN}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Deal_MSISDN} = 59177016481</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Deal_MSISDN}</arg>
+</arguments>
+<assign>
+<var>${SA_Deal_MSISDN}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Deal_MSISDN} = 59177016481</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Deal_MSISDN}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Deal_MSISDN} = 59177016481</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Deal_MSISDN}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">59177016481</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>16</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_9_Digits}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_ICC_9_Digits} = 436022490</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_ICC_9_Digits}</arg>
+</arguments>
+<assign>
+<var>${SA_ICC_9_Digits}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_ICC_9_Digits} = 436022490</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_ICC_9_Digits}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_ICC_9_Digits} = 436022490</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_ICC_9_Digits}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">436022490</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>17</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Deal_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Deal_ID} = 41316</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Deal_ID}</arg>
+</arguments>
+<assign>
+<var>${SA_Deal_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Deal_ID} = 41316</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Deal_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Deal_ID} = 41316</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Deal_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">41316</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>18</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Pre_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Pre_Channel_ID} = USSD</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Pre_Channel_ID}</arg>
+</arguments>
+<assign>
+<var>${SA_Pre_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Pre_Channel_ID} = USSD</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Pre_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_Pre_Channel_ID} = USSD</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Pre_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">USSD</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>19</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_ShortCode}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_ShortCode} = USSD_282</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_ShortCode}</arg>
+</arguments>
+<assign>
+<var>${SA_ShortCode}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_ShortCode} = USSD_282</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_ShortCode}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_ShortCode} = USSD_282</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_ShortCode}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.696" level="INFO">USSD_282</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>20</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_First_Name}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.696" level="INFO">${SA_First_Name} = Raj</msg>
+<status status="PASS" endtime="20181004 11:29:23.696" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_First_Name}</arg>
+</arguments>
+<assign>
+<var>${SA_First_Name}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_First_Name} = Raj</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.696"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_First_Name}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_First_Name} = Raj</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_First_Name}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">Raj</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>21</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Middle_Name}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Middle_Name} = Automation</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Middle_Name}</arg>
+</arguments>
+<assign>
+<var>${SA_Middle_Name}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Middle_Name} = Automation</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Middle_Name}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Middle_Name} = Automation</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Middle_Name}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">Automation</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>22</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Last_Name}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Last_Name} = Test</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Last_Name}</arg>
+</arguments>
+<assign>
+<var>${SA_Last_Name}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Last_Name} = Test</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Last_Name}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Last_Name} = Test</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Last_Name}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">Test</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>23</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_DOB}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_DOB} = 01011993</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_DOB}</arg>
+</arguments>
+<assign>
+<var>${SA_DOB}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_DOB} = 01011993</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_DOB}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_DOB} = 01011993</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_DOB}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">01011993</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>24</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_ID_Type}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_ID_Type} = PP</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_ID_Type}</arg>
+</arguments>
+<assign>
+<var>${SA_ID_Type}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_ID_Type} = PP</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_ID_Type}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_ID_Type} = PP</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_ID_Type}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">PP</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>25</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_ID_Value}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_ID_Value} = AUT336708</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_ID_Value}</arg>
+</arguments>
+<assign>
+<var>${SA_ID_Value}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_ID_Value} = AUT336708</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_ID_Value}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_ID_Value} = AUT336708</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_ID_Value}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">AUT336708</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>26</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Act_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Act_Channel_ID} = USSD_108</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Act_Channel_ID}</arg>
+</arguments>
+<assign>
+<var>${SA_Act_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Act_Channel_ID} = USSD_108</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Act_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Act_Channel_ID} = USSD_108</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Act_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">USSD_108</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>27</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_IMEI}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_IMEI} = 105221230564771</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_IMEI}</arg>
+</arguments>
+<assign>
+<var>${SA_IMEI}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_IMEI} = 105221230564771</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_IMEI}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_IMEI} = 105221230564771</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_IMEI}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.711" level="INFO">105221230564771</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>28</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Reg_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.711" level="INFO">${SA_Reg_Channel_ID} = USSD_5108</msg>
+<status status="PASS" endtime="20181004 11:29:23.711" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Reg_Channel_ID}</arg>
+</arguments>
+<assign>
+<var>${SA_Reg_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Reg_Channel_ID} = USSD_5108</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.711"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Reg_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Reg_Channel_ID} = USSD_5108</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Reg_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">USSD_5108</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>29</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Device_Model}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Model} = Apple</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Device_Model}</arg>
+</arguments>
+<assign>
+<var>${SA_Device_Model}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Model} = Apple</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Device_Model}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Model} = Apple</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Device_Model}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">Apple</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>30</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Device_Brand}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Brand} = XS</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Device_Brand}</arg>
+</arguments>
+<assign>
+<var>${SA_Device_Brand}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Brand} = XS</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Device_Brand}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Brand} = XS</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Device_Brand}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">XS</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>31</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Device_Type}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Type} = Handset</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Device_Type}</arg>
+</arguments>
+<assign>
+<var>${SA_Device_Type}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Type} = Handset</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Device_Type}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Device_Type} = Handset</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Device_Type}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">Handset</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>32</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Vocher}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Vocher} = 1874248816718033</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Vocher}</arg>
+</arguments>
+<assign>
+<var>${SA_Vocher}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Vocher} = 1874248816718033</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Vocher}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Vocher} = 1874248816718033</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Vocher}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">1874248816718033</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>33</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_TP_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_TP_Channel_ID} = ussd</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_TP_Channel_ID}</arg>
+</arguments>
+<assign>
+<var>${SA_TP_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_TP_Channel_ID} = ussd</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_TP_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_TP_Channel_ID} = ussd</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_TP_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">ussd</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>34</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_Sales_Code}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Sales_Code} = 168</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_Sales_Code}</arg>
+</arguments>
+<assign>
+<var>${SA_Sales_Code}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Sales_Code} = 168</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_Sales_Code}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_Sales_Code} = 168</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_Sales_Code}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">168</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Read Excel Cell" library="ExcelLibrary">
+<doc>Returns content of a cell.</doc>
+<arguments>
+<arg>35</arg>
+<arg>3</arg>
+<arg>Sanity</arg>
+</arguments>
+<assign>
+<var>${SA_PP_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_PP_Channel_ID} = SMS_321</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${SA_PP_Channel_ID}</arg>
+</arguments>
+<assign>
+<var>${SA_PP_Channel_ID}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_PP_Channel_ID} = SMS_321</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${SA_PP_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">${SA_PP_Channel_ID} = SMS_321</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SA_PP_Channel_ID}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.727" level="INFO">SMS_321</msg>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.727"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:23.727" starttime="20181004 11:29:23.642"></status>
+</kw>
+<kw name="Load MSISDN To HPD">
+<kw name="Verify MSISDN Status In RIM" library="BSSQueries">
+<arguments>
+<arg>${SA_MSISDN}</arg>
+</arguments>
+<assign>
+<var>${MSISDN_Available_Status}</var>
+</assign>
+<kw name="Fetch MSISDN Details From RIM" library="BSSQueries">
+<arguments>
+<arg>${MSISDN_ID}</arg>
+<arg>${Search_By_MSISDN_MSISDNS}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<kw name="Replace String" library="String">
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<arguments>
+<arg>${Query_String}</arg>
+<arg>REPLACEMSISDN</arg>
+<arg>${MSISDN_ID}</arg>
+</arguments>
+<assign>
+<var>${Link}</var>
+</assign>
+<msg timestamp="20181004 11:29:23.742" level="INFO">${Link} = /api/msisdns/59177110067</msg>
+<status status="PASS" endtime="20181004 11:29:23.742" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${SITApi}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:23.742" level="INFO">Creating Session using : alias=Manageo, url=http://localhost:3010, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20181004 11:29:23.742" starttime="20181004 11:29:23.742"></status>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<doc>Send a GET request on the session object found using the</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${Link}</arg>
+</arguments>
+<assign>
+<var>${gresp}</var>
+</assign>
+<msg timestamp="20181004 11:29:24.975" level="INFO">Get Request using : alias=Manageo, uri=/api/msisdns/59177110067, headers=None json=None</msg>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${gresp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:23.742"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Repsonse Code : ${gresp.status_code}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Response Content : ${gresp.content}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:24.975" level="INFO">Response Content : {"data":{"attributes":{"number":"59177110067","quarantine-ends":null,"sku":"Super Faciles","lifecycle-status":"in-use","owned-by":"","associated-with":"","characteristics":{"plan-offering-id":"","resource-stock-id":""},"primary-id":"59177110067","reserved-for":null,"number-type":"voice","valid-for":{"start-datetime":"2018-03-12T12:00:00.000Z","end-datetime":null,"meta":{"type":"valid-for-datetime"}}},"relationships":{"batch":{"data":{"type":"resource-batches","id":"d06ceeb0-486c-4abb-a702-816b86dea03a"},"links":{"related":"/api/msisdns/59177110067/batch"}},"related-resources":{"links":{"related":"/api/msisdns/59177110067/related-resources"}},"stock":{"data":{"type":"resource-stocks","id":"0b427067-1655-5402-9ad8-385f47ab0a9b"},"links":{"related":"/api/msisdns/59177110067/stock"}}},"links":{"self":"/api/msisdns/59177110067"},"id":"59177110067","meta":{"brand":null},"type":"msisdns"}}</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${gresp.status_code} == 404</arg>
+<arg>Set Variable</arg>
+<arg>${Data}</arg>
+<arg>None</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${gresp.status_code} == 200 or ${gresp.status_code} == 201 or ${gresp.status_code} == 202 or ${gresp.status_code} == 203 or ${gresp.status_code} == 204</arg>
+<arg>Get Resource LifecycleStatus From RIM</arg>
+<arg>${gresp.content}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<kw name="Get Resource LifecycleStatus From RIM" library="BSSQueries">
+<arguments>
+<arg>${gresp.content}</arg>
+</arguments>
+<kw name="Get Json Value" library="HttpLibrary.HTTP">
+<doc>Get the target node of the JSON document `json_string` specified by `json_pointer`.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>/data/attributes/lifecycle-status</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${Data} = "in-use"</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Data}'.strip('"')</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${LifeCycleStatus} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${LifeCycleStatus} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<msg timestamp="20181004 11:29:24.975" level="INFO">${MSISDN_Available_Status} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${MSISDN_Available_Status}" == "available"</arg>
+<arg>Log</arg>
+<arg>MSISDN Is Aleardy Loaded</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${MSISDN_Available_Status}" == "None"</arg>
+<arg>Load MSISDN</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:24.975"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:24.975" starttime="20181004 11:29:23.727"></status>
+</kw>
+<kw name="Load SIM To HPD">
+<kw name="Verify SIM Status In RIM" library="BSSQueries">
+<arguments>
+<arg>${SA_ICC_ID}</arg>
+</arguments>
+<assign>
+<var>${SIM_Available_Status}</var>
+</assign>
+<kw name="Fetch SIM Details From RIM" library="BSSQueries">
+<arguments>
+<arg>${ICC_ID}</arg>
+<arg>${Search_By_SIM_Simcards}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<kw name="Replace String" library="String">
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<arguments>
+<arg>${Query_String}</arg>
+<arg>REPLACESIM</arg>
+<arg>${ICC_ID}</arg>
+</arguments>
+<assign>
+<var>${Link}</var>
+</assign>
+<msg timestamp="20181004 11:29:24.990" level="INFO">${Link} = /api/sim-cards/8959103000436022490</msg>
+<status status="PASS" endtime="20181004 11:29:24.990" starttime="20181004 11:29:24.990"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${SITApi}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:24.991" level="INFO">Creating Session using : alias=Manageo, url=http://localhost:3010, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20181004 11:29:24.991" starttime="20181004 11:29:24.990"></status>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<doc>Send a GET request on the session object found using the</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${Link}</arg>
+</arguments>
+<assign>
+<var>${gresp}</var>
+</assign>
+<msg timestamp="20181004 11:29:26.229" level="INFO">Get Request using : alias=Manageo, uri=/api/sim-cards/8959103000436022490, headers=None json=None</msg>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${gresp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:24.991"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Repsonse Code : ${gresp.status_code}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Response Content : ${gresp.content}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:26.229" level="INFO">Response Content : {"data":{"attributes":{"puk-1":"91963116","sim-technology":"USIM","sku":"41316","pin-1":"8446","icc":"8959103000436022490","puk-2":"41945441","lifecycle-status":"in-use","pin-2":"4794","owned-by":"","associated-with":null,"characteristics":{"KIVALUE":"A0DBEFFA1DAE053CFA8FA3F477960CDC","ZONE":"Cochabamba"},"primary-id":"8959103000436022490","sim-type":"u-multi","reserved-for":null,"valid-for":{"start-datetime":"2017-10-30T12:00:00.000Z","end-datetime":null,"meta":{"type":"valid-for-datetime"}},"imsi":"736030043602249"},"relationships":{"batch":{"data":{"type":"resource-batches","id":"b5c4b5a0-9d7a-5bae-ad5a-9cb88904e2e8"},"links":{"related":"/api/sim-cards/8959103000436022490/batch"}},"related-resources":{"links":{"related":"/api/sim-cards/8959103000436022490/related-resources"}},"stock":{"data":{"type":"resource-stocks","id":"fafdb46e-a15a-5a8b-9281-2fcbdbd247ad"},"links":{"related":"/api/sim-cards/8959103000436022490/stock"}}},"links":{"self":"/api/sim-cards/8959103000436022490"},"id":"8959103000436022490","meta":{"brand":null},"type":"sim-cards"}}</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${gresp.status_code} == 404</arg>
+<arg>Set Variable</arg>
+<arg>${Data}</arg>
+<arg>None</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${gresp.status_code} == 200 or ${gresp.status_code} == 201 or ${gresp.status_code} == 202 or ${gresp.status_code} == 203 or ${gresp.status_code} == 204</arg>
+<arg>Get Resource LifecycleStatus From RIM</arg>
+<arg>${gresp.content}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<kw name="Get Resource LifecycleStatus From RIM" library="BSSQueries">
+<arguments>
+<arg>${gresp.content}</arg>
+</arguments>
+<kw name="Get Json Value" library="HttpLibrary.HTTP">
+<doc>Get the target node of the JSON document `json_string` specified by `json_pointer`.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>/data/attributes/lifecycle-status</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${Data} = "in-use"</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Data}'.strip('"')</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${LifeCycleStatus} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${LifeCycleStatus} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${SIM_Available_Status} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${SIM_Available_Status}" == "available"</arg>
+<arg>Log</arg>
+<arg>SIM Is Aleardy Loaded</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${SIM_Available_Status}" == "None"</arg>
+<arg>Load SIM</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:24.975"></status>
+</kw>
+<kw name="Reserve Selected MSISDN">
+<kw name="Verify MSISDN Status In RIM" library="BSSQueries">
+<arguments>
+<arg>${SA_MSISDN}</arg>
+</arguments>
+<assign>
+<var>${MSISDN_Reserve_Status}</var>
+</assign>
+<kw name="Fetch MSISDN Details From RIM" library="BSSQueries">
+<arguments>
+<arg>${MSISDN_ID}</arg>
+<arg>${Search_By_MSISDN_MSISDNS}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<kw name="Replace String" library="String">
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<arguments>
+<arg>${Query_String}</arg>
+<arg>REPLACEMSISDN</arg>
+<arg>${MSISDN_ID}</arg>
+</arguments>
+<assign>
+<var>${Link}</var>
+</assign>
+<msg timestamp="20181004 11:29:26.229" level="INFO">${Link} = /api/msisdns/59177110067</msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${SITApi}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:26.229" level="INFO">Creating Session using : alias=Manageo, url=http://localhost:3010, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20181004 11:29:26.229" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<doc>Send a GET request on the session object found using the</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${Link}</arg>
+</arguments>
+<assign>
+<var>${gresp}</var>
+</assign>
+<msg timestamp="20181004 11:29:27.446" level="INFO">Get Request using : alias=Manageo, uri=/api/msisdns/59177110067, headers=None json=None</msg>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${gresp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Repsonse Code : ${gresp.status_code}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Response Content : ${gresp.content}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:27.446" level="INFO">Response Content : {"data":{"attributes":{"number":"59177110067","quarantine-ends":null,"sku":"Super Faciles","lifecycle-status":"in-use","owned-by":"","associated-with":"","characteristics":{"plan-offering-id":"","resource-stock-id":""},"primary-id":"59177110067","reserved-for":null,"number-type":"voice","valid-for":{"start-datetime":"2018-03-12T12:00:00.000Z","end-datetime":null,"meta":{"type":"valid-for-datetime"}}},"relationships":{"batch":{"data":{"type":"resource-batches","id":"d06ceeb0-486c-4abb-a702-816b86dea03a"},"links":{"related":"/api/msisdns/59177110067/batch"}},"related-resources":{"links":{"related":"/api/msisdns/59177110067/related-resources"}},"stock":{"data":{"type":"resource-stocks","id":"0b427067-1655-5402-9ad8-385f47ab0a9b"},"links":{"related":"/api/msisdns/59177110067/stock"}}},"links":{"self":"/api/msisdns/59177110067"},"id":"59177110067","meta":{"brand":null},"type":"msisdns"}}</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${gresp.status_code} == 404</arg>
+<arg>Set Variable</arg>
+<arg>${Data}</arg>
+<arg>None</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${gresp.status_code} == 200 or ${gresp.status_code} == 201 or ${gresp.status_code} == 202 or ${gresp.status_code} == 203 or ${gresp.status_code} == 204</arg>
+<arg>Get Resource LifecycleStatus From RIM</arg>
+<arg>${gresp.content}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<kw name="Get Resource LifecycleStatus From RIM" library="BSSQueries">
+<arguments>
+<arg>${gresp.content}</arg>
+</arguments>
+<kw name="Get Json Value" library="HttpLibrary.HTTP">
+<doc>Get the target node of the JSON document `json_string` specified by `json_pointer`.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>/data/attributes/lifecycle-status</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${Data} = "in-use"</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Data}'.strip('"')</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${Data} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${LifeCycleStatus} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${LifeCycleStatus} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<msg timestamp="20181004 11:29:27.446" level="INFO">${MSISDN_Reserve_Status} = in-use</msg>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:26.229"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${MSISDN_Reserve_Status}" == "reserved"</arg>
+<arg>Log</arg>
+<arg>MSISDN Is Aleardy Reserved</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${MSISDN_Reserve_Status}" == "available"</arg>
+<arg>Reserve MSISDN</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:27.446"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:26.229"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:27.446" starttime="20181004 11:29:23.642"></status>
+</kw>
+<test id="s1-t1" name="Preactivation">
+<kw name="Verify MSISDN Status In ResourceRelations" library="BSSQueries">
+<arguments>
+<arg>${SA_MSISDN}</arg>
+</arguments>
+<assign>
+<var>${Preactivation_Status}</var>
+</assign>
+<kw name="Fetch MSISDN Details From ResourceRelations" library="BSSQueries">
+<arguments>
+<arg>${MSISDN_ID}</arg>
+<arg>${Search_By_MSISDN_Resource_Relations}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<kw name="Replace String" library="String">
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<arguments>
+<arg>${Query_String}</arg>
+<arg>REPLACEMSISDN</arg>
+<arg>${MSISDN_ID}</arg>
+</arguments>
+<assign>
+<var>${Link}</var>
+</assign>
+<msg timestamp="20181004 11:29:27.461" level="INFO">${Link} = /api/msisdns?filter=(EQ id "59177110067")&amp;include=related-resources</msg>
+<status status="PASS" endtime="20181004 11:29:27.461" starttime="20181004 11:29:27.461"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${SITApi}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:27.461" level="INFO">Creating Session using : alias=Manageo, url=http://localhost:3010, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20181004 11:29:27.461" starttime="20181004 11:29:27.461"></status>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<doc>Send a GET request on the session object found using the</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${Link}</arg>
+</arguments>
+<assign>
+<var>${gresp}</var>
+</assign>
+<msg timestamp="20181004 11:29:28.796" level="INFO">Get Request using : alias=Manageo, uri=/api/msisdns?filter=(EQ id "59177110067")&amp;include=related-resources, headers=None json=None</msg>
+<msg timestamp="20181004 11:29:28.796" level="INFO">${gresp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20181004 11:29:28.796" starttime="20181004 11:29:27.461"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Repsonse Code : ${gresp.status_code}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:28.797" starttime="20181004 11:29:28.796"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Response Content : ${gresp.content}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:28.798" level="INFO">Response Content : {"data":[{"attributes":{"number":"59177110067","quarantine-ends":null,"sku":"Super Faciles","lifecycle-status":"in-use","owned-by":"","associated-with":"","characteristics":{"plan-offering-id":"","resource-stock-id":""},"primary-id":"59177110067","reserved-for":null,"number-type":"voice","valid-for":{"start-datetime":"2018-03-12T12:00:00.000Z","end-datetime":null,"meta":{"type":"valid-for-datetime"}}},"relationships":{"batch":{"data":{"type":"resource-batches","id":"d06ceeb0-486c-4abb-a702-816b86dea03a"},"links":{"related":"/api/msisdns/59177110067/batch"}},"related-resources":{"data":[{"type":"resource-relationships","id":"ca95bf57-d5cd-4086-b39a-ed825f1598b1"}],"links":{"related":"/api/msisdns/59177110067/related-resources"}},"stock":{"data":{"type":"resource-stocks","id":"0b427067-1655-5402-9ad8-385f47ab0a9b"},"links":{"related":"/api/msisdns/59177110067/stock"}}},"links":{"self":"/api/msisdns/59177110067"},"id":"59177110067","meta":{"brand":null},"type":"msisdns"}],"included":[{"attributes":{"role":"preactivation","valid-for":{"start-datetime":"2018-10-02T18:50:39.783Z","end-datetime":"2018-10-02T18:51:26.892Z","meta":{"type":"valid-for-datetime"}}},"relationships":{"source":{"data":{"type":"msisdns","id":"59177110067"},"links":{"related":"/api/resource-relationships/ca95bf57-d5cd-4086-b39a-ed825f1598b1/source"}},"target":{"data":{"type":"sim-cards","id":"8959103000436022490"},"links":{"related":"/api/resource-relationships/ca95bf57-d5cd-4086-b39a-ed825f1598b1/target"}}},"links":{"self":"/api/resource-relationships/ca95bf57-d5cd-4086-b39a-ed825f1598b1"},"id":"ca95bf57-d5cd-4086-b39a-ed825f1598b1","meta":{"brand":null},"type":"resource-relationships"}]}</msg>
+<status status="PASS" endtime="20181004 11:29:28.798" starttime="20181004 11:29:28.797"></status>
+</kw>
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Should Contain</arg>
+<arg>${gresp.content}</arg>
+<arg>target</arg>
+</arguments>
+<assign>
+<var>${Resource_realtion_Available}</var>
+</assign>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>target</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:28.799" starttime="20181004 11:29:28.798"></status>
+</kw>
+<msg timestamp="20181004 11:29:28.799" level="INFO">${Resource_realtion_Available} = True</msg>
+<status status="PASS" endtime="20181004 11:29:28.799" starttime="20181004 11:29:28.798"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Resource_realtion_Available}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:28.800" starttime="20181004 11:29:28.799"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${Resource_realtion_Available} == False</arg>
+<arg>Set Variable</arg>
+<arg>${Data}</arg>
+<arg>None</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:28.800" starttime="20181004 11:29:28.800"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${Resource_realtion_Available} == True</arg>
+<arg>Get Resource LifecycleStatus From ResourceRelations</arg>
+<arg>${gresp.content}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<kw name="Get Resource LifecycleStatus From ResourceRelations" library="BSSQueries">
+<arguments>
+<arg>${gresp.content}</arg>
+</arguments>
+<kw name="Get Json Value" library="HttpLibrary.HTTP">
+<doc>Get the target node of the JSON document `json_string` specified by `json_pointer`.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>/included/0/attributes/role</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${Data} = "preactivation"</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Data}'.strip('"')</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${Data} = preactivation</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${Data} = preactivation</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${Data} = preactivation</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${Data} = preactivation</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.800"></status>
+</kw>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${LifeCycleStatus} = preactivation</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${LifeCycleStatus} = preactivation</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${Preactivation_Status} = preactivation</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:27.446"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${Preactivation_Status}" == "preactivation"</arg>
+<arg>Log</arg>
+<arg>MSISDN Is Aleardy Preactivated</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>MSISDN Is Aleardy Preactivated</arg>
+</arguments>
+<msg timestamp="20181004 11:29:28.801" level="INFO">MSISDN Is Aleardy Preactivated</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${Preactivation_Status}" == "None"</arg>
+<arg>Perform Preactivation</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<tags>
+<tag>CBA</tag>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" endtime="20181004 11:29:28.801" critical="yes" starttime="20181004 11:29:27.446"></status>
+</test>
+<test id="s1-t2" name="Issue New Subscription">
+<kw name="Depends On Test" library="DependencyLibrary">
+<arguments>
+<arg>Preactivation</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Verify MSISDN Status In CIM" library="BSSQueries">
+<arguments>
+<arg>${SA_MSISDN}</arg>
+</arguments>
+<assign>
+<var>${MSISDN_Status_Resources}</var>
+</assign>
+<kw name="Fetch MSISDN Details From CIM" library="BSSQueries">
+<arguments>
+<arg>${MSISDN_ID}</arg>
+<arg>${Search_By_MSISDN_Resources}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<kw name="Replace String" library="String">
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<arguments>
+<arg>${Query_String}</arg>
+<arg>REPLACEMSISDN</arg>
+<arg>${MSISDN_ID}</arg>
+</arguments>
+<assign>
+<var>${Link}</var>
+</assign>
+<msg timestamp="20181004 11:29:28.801" level="INFO">${Link} = /api/resources?filter=(AND (EQ primary-id "59177110067")(EQ resource-type "msisdn"))</msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${SITApi}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:28.801" level="INFO">Creating Session using : alias=Manageo, url=http://localhost:3010, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20181004 11:29:28.801" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<doc>Send a GET request on the session object found using the</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${Link}</arg>
+</arguments>
+<assign>
+<var>${gresp}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">Get Request using : alias=Manageo, uri=/api/resources?filter=(AND (EQ primary-id "59177110067")(EQ resource-type "msisdn")), headers=None json=None</msg>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${gresp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Repsonse Code : ${gresp.status_code}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Response Content : ${gresp.content}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:30.535" level="INFO">Response Content : {"data":[{"attributes":{"valid-for":{"meta":{"type":"valid-for-datetime"},"start-datetime":"2018-10-02T18:51:14.285Z","end-datetime":"2037-12-31T00:00:00.000Z"},"resource-type":"msisdn","lifecycle-status":"active","characteristics":{"CH_MSISDNType":"primary"},"primary-id":"59177110067"},"meta":{"version":2,"created-at":"2018-10-02T18:51:07.000Z","last-updated-at":"2018-10-02T18:51:24.000Z"},"links":{"self":"/api/resources/b0f75f83-8229-477d-ab7a-dc557b2bbf3c"},"relationships":{"specification":{"links":{"related":"/api/resources/b0f75f83-8229-477d-ab7a-dc557b2bbf3c/specification"},"data":{"type":"specifications","id":"R_MSISDN","meta":{"external":true}}},"realized-product":{"links":{"related":"/api/resources/b0f75f83-8229-477d-ab7a-dc557b2bbf3c/realized-product"},"data":{"type":"products","id":"54927d35-ff98-4350-92bb-57cecb3376e9"}}},"id":"b0f75f83-8229-477d-ab7a-dc557b2bbf3c","type":"resources"}],"links":{}}</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Get Json Value" library="HttpLibrary.HTTP">
+<doc>Get the target node of the JSON document `json_string` specified by `json_pointer`.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>/data</arg>
+</arguments>
+<assign>
+<var>${Json_Content}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Json_Content} = [{"relationships": {"realized-product": {"data": {"type": "products", "id": "54927d35-ff98-4350-92bb-57cecb3376e9"}, "links": {"related": "/api/resources/b0f75f83-8229-477d-ab7a-dc557b2bbf3c/realized-...</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${Json_Content}</arg>
+</arguments>
+<assign>
+<var>${Json_Content}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Json_Content} = [{"relationships": {"realized-product": {"data": {"type": "products", "id": "54927d35-ff98-4350-92bb-57cecb3376e9"}, "links": {"related": "/api/resources/b0f75f83-8229-477d-ab7a-dc557b2bbf3c/realized-...</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Json_Content}'.strip('[')</arg>
+</arguments>
+<assign>
+<var>${Json_Content}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Json_Content} = {"relationships": {"realized-product": {"data": {"type": "products", "id": "54927d35-ff98-4350-92bb-57cecb3376e9"}, "links": {"related": "/api/resources/b0f75f83-8229-477d-ab7a-dc557b2bbf3c/realized-p...</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Json_Content}'.strip(']')</arg>
+</arguments>
+<assign>
+<var>${Json_Content}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Json_Content} = {"relationships": {"realized-product": {"data": {"type": "products", "id": "54927d35-ff98-4350-92bb-57cecb3376e9"}, "links": {"related": "/api/resources/b0f75f83-8229-477d-ab7a-dc557b2bbf3c/realized-p...</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Should Contain</arg>
+<arg>${Json_Content}</arg>
+<arg>lifecycle-status</arg>
+</arguments>
+<assign>
+<var>${Lifecyclestatus_Available}</var>
+</assign>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${Json_Content}</arg>
+<arg>lifecycle-status</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Lifecyclestatus_Available} = True</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Lifecyclestatus_Available}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${Lifecyclestatus_Available} == False</arg>
+<arg>Set Variable</arg>
+<arg>${Data}</arg>
+<arg>None</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${Lifecyclestatus_Available} == True</arg>
+<arg>Get Resource LifecycleStatus From CIM</arg>
+<arg>${gresp.content}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<kw name="Get Resource LifecycleStatus From CIM" library="BSSQueries">
+<arguments>
+<arg>${gresp.content}</arg>
+</arguments>
+<kw name="Get Json Value" library="HttpLibrary.HTTP">
+<doc>Get the target node of the JSON document `json_string` specified by `json_pointer`.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>/data/0/attributes/lifecycle-status</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Data} = "active"</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Data}'.strip('"')</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Data} = active</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Data} = active</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.535" level="INFO">${Data} = active</msg>
+<status status="PASS" endtime="20181004 11:29:30.535" starttime="20181004 11:29:30.535"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.535"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.535"></status>
+</kw>
+<msg timestamp="20181004 11:29:30.550" level="INFO">${Data} = active</msg>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.535"></status>
+</kw>
+<msg timestamp="20181004 11:29:30.550" level="INFO">${LifeCycleStatus} = active</msg>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.550" level="INFO">${LifeCycleStatus} = active</msg>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.550"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.550"></status>
+</kw>
+<msg timestamp="20181004 11:29:30.550" level="INFO">${MSISDN_Status_Resources} = active</msg>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:28.801"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${MSISDN_Status_Resources}" == "active"</arg>
+<arg>Log</arg>
+<arg>MSISDN Is Aleardy active</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>MSISDN Is Aleardy active</arg>
+</arguments>
+<msg timestamp="20181004 11:29:30.550" level="INFO">MSISDN Is Aleardy active</msg>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.550"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.550"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${MSISDN_Status_Resources}" == "None"</arg>
+<arg>Perform Activation</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.550"></status>
+</kw>
+<tags>
+<tag>CBA</tag>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" endtime="20181004 11:29:30.550" critical="yes" starttime="20181004 11:29:28.801"></status>
+</test>
+<test id="s1-t3" name="Device Registration">
+<kw name="Depends On Test" library="DependencyLibrary">
+<arguments>
+<arg>Issue New Subscription</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.550"></status>
+</kw>
+<kw name="Verify Device Status In CIM" library="BSSQueries">
+<arguments>
+<arg>${SA_IMEI}</arg>
+</arguments>
+<assign>
+<var>${Device_Status_Resources}</var>
+</assign>
+<kw name="Fetch Device Details From CIM" library="BSSQueries">
+<arguments>
+<arg>${IMEI}</arg>
+<arg>${Search_By_IMEI_Resources}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<kw name="Replace String" library="String">
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<arguments>
+<arg>${Query_String}</arg>
+<arg>IMEI</arg>
+<arg>${IMEI}</arg>
+</arguments>
+<assign>
+<var>${Link}</var>
+</assign>
+<msg timestamp="20181004 11:29:30.550" level="INFO">${Link} = /api/resources?filter=(AND (EQ primary-id "105221230564771")(EQ resource-type "Device"))</msg>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.550"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${SITApi}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:30.550" level="INFO">Creating Session using : alias=Manageo, url=http://localhost:3010, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20181004 11:29:30.550" starttime="20181004 11:29:30.550"></status>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<doc>Send a GET request on the session object found using the</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${Link}</arg>
+</arguments>
+<assign>
+<var>${gresp}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">Get Request using : alias=Manageo, uri=/api/resources?filter=(AND (EQ primary-id "105221230564771")(EQ resource-type "Device")), headers=None json=None</msg>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${gresp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:30.550"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Repsonse Code : ${gresp.status_code}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Response Content : ${gresp.content}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:31.769" level="INFO">Response Content : {"data":[{"attributes":{"valid-for":{"meta":{"type":"valid-for-datetime"},"start-datetime":"2018-10-02T18:51:36.675Z"},"resource-type":"device","lifecycle-status":"active","characteristics":{},"primary-id":"105221230564771"},"meta":{"version":2,"created-at":"2018-10-02T18:51:37.000Z","last-updated-at":"2018-10-02T18:51:51.000Z"},"links":{"self":"/api/resources/cac14549-24ff-409e-a4c7-a2b6ae32017b"},"relationships":{"specification":{"links":{"related":"/api/resources/cac14549-24ff-409e-a4c7-a2b6ae32017b/specification"},"data":{"type":"specifications","id":"R_Handset","meta":{"external":true}}},"realized-product":{"links":{"related":"/api/resources/cac14549-24ff-409e-a4c7-a2b6ae32017b/realized-product"},"data":{"type":"products","id":"dd978d6f-cef5-4e9f-b046-fe860db1c1fd"}}},"id":"cac14549-24ff-409e-a4c7-a2b6ae32017b","type":"resources"}],"links":{}}</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Get Json Value" library="HttpLibrary.HTTP">
+<doc>Get the target node of the JSON document `json_string` specified by `json_pointer`.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>/data</arg>
+</arguments>
+<assign>
+<var>${Json_Content}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Json_Content} = [{"relationships": {"realized-product": {"data": {"type": "products", "id": "dd978d6f-cef5-4e9f-b046-fe860db1c1fd"}, "links": {"related": "/api/resources/cac14549-24ff-409e-a4c7-a2b6ae32017b/realized-...</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${Json_Content}</arg>
+</arguments>
+<assign>
+<var>${Json_Content}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Json_Content} = [{"relationships": {"realized-product": {"data": {"type": "products", "id": "dd978d6f-cef5-4e9f-b046-fe860db1c1fd"}, "links": {"related": "/api/resources/cac14549-24ff-409e-a4c7-a2b6ae32017b/realized-...</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Json_Content}'.strip('[')</arg>
+</arguments>
+<assign>
+<var>${Json_Content}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Json_Content} = {"relationships": {"realized-product": {"data": {"type": "products", "id": "dd978d6f-cef5-4e9f-b046-fe860db1c1fd"}, "links": {"related": "/api/resources/cac14549-24ff-409e-a4c7-a2b6ae32017b/realized-p...</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Json_Content}'.strip(']')</arg>
+</arguments>
+<assign>
+<var>${Json_Content}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Json_Content} = {"relationships": {"realized-product": {"data": {"type": "products", "id": "dd978d6f-cef5-4e9f-b046-fe860db1c1fd"}, "links": {"related": "/api/resources/cac14549-24ff-409e-a4c7-a2b6ae32017b/realized-p...</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Should Contain</arg>
+<arg>${Json_Content}</arg>
+<arg>lifecycle-status</arg>
+</arguments>
+<assign>
+<var>${Lifecyclestatus_Available}</var>
+</assign>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${Json_Content}</arg>
+<arg>lifecycle-status</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Lifecyclestatus_Available} = True</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Lifecyclestatus_Available}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${Lifecyclestatus_Available} == False</arg>
+<arg>Set Variable</arg>
+<arg>${Data}</arg>
+<arg>None</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${Lifecyclestatus_Available} == True</arg>
+<arg>Get Resource LifecycleStatus From CIM</arg>
+<arg>${gresp.content}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<kw name="Get Resource LifecycleStatus From CIM" library="BSSQueries">
+<arguments>
+<arg>${gresp.content}</arg>
+</arguments>
+<kw name="Get Json Value" library="HttpLibrary.HTTP">
+<doc>Get the target node of the JSON document `json_string` specified by `json_pointer`.</doc>
+<arguments>
+<arg>${gresp.content}</arg>
+<arg>/data/0/attributes/lifecycle-status</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Data} = "active"</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>'${Data}'.strip('"')</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Data} = active</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Data} = active</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<assign>
+<var>${Data}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.769" level="INFO">${Data} = active</msg>
+<status status="PASS" endtime="20181004 11:29:31.769" starttime="20181004 11:29:31.769"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Data}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.769"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.769"></status>
+</kw>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${Data} = active</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.769"></status>
+</kw>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${LifeCycleStatus} = active</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:30.550"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<assign>
+<var>${LifeCycleStatus}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${LifeCycleStatus} = active</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${LifeCycleStatus}</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${Device_Status_Resources} = active</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:30.550"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${Device_Status_Resources}" == "active"</arg>
+<arg>Log</arg>
+<arg>Device Is Aleardy active</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Device Is Aleardy active</arg>
+</arguments>
+<msg timestamp="20181004 11:29:31.784" level="INFO">Device Is Aleardy active</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${Device_Status_Resources}" == "None"</arg>
+<arg>Perform Device registration</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<tags>
+<tag>CBA</tag>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" endtime="20181004 11:29:31.784" critical="yes" starttime="20181004 11:29:30.550"></status>
+</test>
+<test id="s1-t4" name="Top up">
+<kw name="Depends On Test" library="DependencyLibrary">
+<arguments>
+<arg>Issue New Subscription</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Perform Top up">
+<kw name="Construct Top Up CBA Uri" library="CBA">
+<assign>
+<var>${link}</var>
+</assign>
+<kw name="Get Substring" library="String">
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<arguments>
+<arg>${SA_MSISDN}</arg>
+<arg>3</arg>
+</arguments>
+<assign>
+<var>${SA_MSISDN}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${SA_MSISDN} = 77110067</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>/ussd/voucherTopup?msisdn=${SA_MSISDN}&amp;pin=${SA_Vocher}&amp;channelId=${SA_TP_Channel_ID}&amp;sellerId=${SA_Seller_ID}</arg>
+</arguments>
+<assign>
+<var>${link}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${link} = /ussd/voucherTopup?msisdn=77110067&amp;pin=1874248816718033&amp;channelId=ussd&amp;sellerId=10786</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${link}</arg>
+</arguments>
+<assign>
+<var>${link}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${link} = /ussd/voucherTopup?msisdn=77110067&amp;pin=1874248816718033&amp;channelId=ussd&amp;sellerId=10786</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${link}</arg>
+</arguments>
+<assign>
+<var>${ulink}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${link} = /ussd/voucherTopup?msisdn=77110067&amp;pin=1874248816718033&amp;channelId=ussd&amp;sellerId=10786</msg>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${ulink} = None</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${link}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:31.784" level="INFO">/ussd/voucherTopup?msisdn=77110067&amp;pin=1874248816718033&amp;channelId=ussd&amp;sellerId=10786</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${link} = /ussd/voucherTopup?msisdn=77110067&amp;pin=1874248816718033&amp;channelId=ussd&amp;sellerId=10786</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Post API Request" library="JSON">
+<arguments>
+<arg>${SIT}:${USSD_Port}</arg>
+<arg>${link}</arg>
+</arguments>
+<assign>
+<var>${API_Response}</var>
+</assign>
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>Content-Type</arg>
+<arg>application/vnd.api+json</arg>
+<arg>authorisationFlag</arg>
+<arg>N</arg>
+</arguments>
+<assign>
+<var>${Headers}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${Headers} = {u'Content-Type': u'application/vnd.api+json', u'authorisationFlag': u'N'}</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>admin</arg>
+<arg>password</arg>
+</arguments>
+<assign>
+<var>${Creds}</var>
+</assign>
+<msg timestamp="20181004 11:29:31.784" level="INFO">${Creds} = [u'admin', u'password']</msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${ENV}</arg>
+<arg>auth=${Creds}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:31.784" level="INFO">Creating Session using : alias=Manageo, url=http://localhost:8381, headers={},                     cookies=None, auth=&lt;requests.auth.HTTPBasicAuth object at 0x0000000007A467F0&gt;, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20181004 11:29:31.784" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<doc>Send a GET request on the session object found using the</doc>
+<arguments>
+<arg>Manageo</arg>
+<arg>${Link}</arg>
+</arguments>
+<assign>
+<var>${gresp}</var>
+</assign>
+<msg timestamp="20181004 11:29:37.227" level="INFO">Get Request using : alias=Manageo, uri=/ussd/voucherTopup?msisdn=77110067&amp;pin=1874248816718033&amp;channelId=ussd&amp;sellerId=10786, headers=None json=None</msg>
+<msg timestamp="20181004 11:29:37.227" level="INFO">${gresp} = &lt;Response [500]&gt;</msg>
+<status status="PASS" endtime="20181004 11:29:37.227" starttime="20181004 11:29:31.784"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Repsonse Code : ${gresp.status_code}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:37.227" level="INFO">Repsonse Code : 500</msg>
+<status status="PASS" endtime="20181004 11:29:37.227" starttime="20181004 11:29:37.227"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Response Content : ${gresp.content}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:37.227" level="INFO">Response Content : {"errors":[{"httpStatus":"500","cbaStatusCode":"7002","cbaErrorMessage":"server error","detail":"The Sever encountered some error during processing your request,"}]}</msg>
+<status status="PASS" endtime="20181004 11:29:37.227" starttime="20181004 11:29:37.227"></status>
+</kw>
+<kw name="Run Keyword Unless" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is false.</doc>
+<arguments>
+<arg>${gresp.status_code} == 200 or ${gresp.status_code} == 201 or ${gresp.status_code} == 202 or ${gresp.status_code} == 203 or ${gresp.status_code} == 204</arg>
+<arg>Fail</arg>
+<arg>ErrorCode ${gresp.content}</arg>
+</arguments>
+<kw name="Fail" library="BuiltIn">
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<arguments>
+<arg>ErrorCode ${gresp.content}</arg>
+</arguments>
+<msg timestamp="20181004 11:29:37.227" level="FAIL">ErrorCode {"errors":[{"httpStatus":"500","cbaStatusCode":"7002","cbaErrorMessage":"server error","detail":"The Sever encountered some error during processing your request,"}]}</msg>
+<status status="FAIL" endtime="20181004 11:29:37.227" starttime="20181004 11:29:37.227"></status>
+</kw>
+<status status="FAIL" endtime="20181004 11:29:37.227" starttime="20181004 11:29:37.227"></status>
+</kw>
+<status status="FAIL" endtime="20181004 11:29:37.227" starttime="20181004 11:29:31.784"></status>
+</kw>
+<status status="FAIL" endtime="20181004 11:29:37.227" starttime="20181004 11:29:31.784"></status>
+</kw>
+<tags>
+<tag>CBA</tag>
+<tag>Sanity</tag>
+</tags>
+<status status="FAIL" endtime="20181004 11:29:37.227" critical="yes" starttime="20181004 11:29:31.784">ErrorCode {"errors":[{"httpStatus":"500","cbaStatusCode":"7002","cbaErrorMessage":"server error","detail":"The Sever encountered some error during processing your request,"}]}</status>
+</test>
+<test id="s1-t5" name="Purchase Paquetigo">
+<kw name="Depends On Test" library="DependencyLibrary">
+<arguments>
+<arg>Issue New Subscription</arg>
+</arguments>
+<status status="PASS" endtime="20181004 11:29:37.243" starttime="20181004 11:29:37.243"></status>
+</kw>
+<kw name="Depends On Test" library="DependencyLibrary">
+<arguments>
+<arg>Top up</arg>
+</arguments>
+<msg timestamp="20181004 11:29:37.243" level="FAIL">Dependency not met: test case u'Top up' state is 'FAIL', wanted 'PASS'</msg>
+<status status="FAIL" endtime="20181004 11:29:37.243" starttime="20181004 11:29:37.243"></status>
+</kw>
+<tags>
+<tag>CBA</tag>
+<tag>Sanity</tag>
+</tags>
+<status status="FAIL" endtime="20181004 11:29:37.243" critical="yes" starttime="20181004 11:29:37.227">Dependency not met: test case u'Top up' state is 'FAIL', wanted 'PASS'</status>
+</test>
+<kw type="teardown" name="Tear Down - Suite">
+<kw name="Delete All Sessions" library="RequestsLibrary">
+<doc>Removes all the session objects</doc>
+<msg timestamp="20181004 11:29:37.243" level="INFO">Delete All Sessions</msg>
+<status status="PASS" endtime="20181004 11:29:37.243" starttime="20181004 11:29:37.243"></status>
+</kw>
+<status status="PASS" endtime="20181004 11:29:37.243" starttime="20181004 11:29:37.243"></status>
+</kw>
+<doc>Sanity test for Millicom Bolivia RFC
+This suite covers
+SALES - Preactivation, Activation, Device Registration, Purchase Paquetigo and Top up
+CARE - Customer Search, Modification of Customer Data
+Cases - Create Case</doc>
+<status status="FAIL" endtime="20181004 11:29:37.243" starttime="20181004 11:29:22.794"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="2" pass="3">Critical Tests</stat>
+<stat fail="2" pass="3">All Tests</stat>
+</total>
+<tag>
+<stat fail="2" pass="3">CBA</stat>
+<stat fail="2" pass="3">Sanity</stat>
+</tag>
+<suite>
+<stat fail="2" id="s1" name="CBASanityNew" pass="3">CBASanityNew</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181004 11:29:23.173" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\TestSuites\CBASanityNew.robot': Importing test library 'builtin' failed: ImportError: No module named builtin
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python27\Lib
+  C:\Python27\DLLs
+  C:\Python27\Lib\lib-tk
+  C:\other-foolder-on-the-path
+  C:\Users\rnavakoti\PycharmProjects\RobotTest
+  C:\windows\SYSTEM32\python27.zip
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\DLLs
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\plat-win
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\lib-tk
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\Scripts
+  C:\Users\rnavakoti\AppData\Roaming\Python\Python27\site-packages
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\site-packages</msg>
+<msg timestamp="20181004 11:29:23.575" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Keywords\CBA.robot': Importing test library 'builtin' failed: ImportError: No module named builtin
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python27\Lib
+  C:\Python27\DLLs
+  C:\Python27\Lib\lib-tk
+  C:\other-foolder-on-the-path
+  C:\Users\rnavakoti\PycharmProjects\RobotTest
+  C:\windows\SYSTEM32\python27.zip
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\DLLs
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\plat-win
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\lib-tk
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\Scripts
+  C:\Users\rnavakoti\AppData\Roaming\Python\Python27\site-packages
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\site-packages</msg>
+<msg timestamp="20181004 11:29:23.579" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Keywords\CBA.robot': Test library 'Datachange.py' does not exist.</msg>
+<msg timestamp="20181004 11:29:23.579" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Keywords\CBA.robot': Test library 'UtilityKeywords.py' does not exist.</msg>
+<msg timestamp="20181004 11:29:23.579" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Keywords\CBA.robot': Resource file '..\..\Keywords\JSON.robot' does not exist.</msg>
+<msg timestamp="20181004 11:29:23.596" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Keywords\BSSQueries.robot': Importing test library 'builtin' failed: ImportError: No module named builtin
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python27\Lib
+  C:\Python27\DLLs
+  C:\Python27\Lib\lib-tk
+  C:\other-foolder-on-the-path
+  C:\Users\rnavakoti\PycharmProjects\RobotTest
+  C:\windows\SYSTEM32\python27.zip
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\DLLs
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\plat-win
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\lib-tk
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\Scripts
+  C:\Users\rnavakoti\AppData\Roaming\Python\Python27\site-packages
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\site-packages</msg>
+<msg timestamp="20181004 11:29:23.611" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Keywords\BSSQueries.robot': Test library 'Datachange.py' does not exist.</msg>
+<msg timestamp="20181004 11:29:23.611" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Keywords\BSSQueries.robot': Test library 'UtilityKeywords.py' does not exist.</msg>
+<msg timestamp="20181004 11:29:23.611" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Prerequisites\ResourceLoading.robot': Importing test library 'builtin' failed: ImportError: No module named builtin
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python27\Lib
+  C:\Python27\DLLs
+  C:\Python27\Lib\lib-tk
+  C:\other-foolder-on-the-path
+  C:\Users\rnavakoti\PycharmProjects\RobotTest
+  C:\windows\SYSTEM32\python27.zip
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\DLLs
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\plat-win
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\lib-tk
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\Scripts
+  C:\Users\rnavakoti\AppData\Roaming\Python\Python27\site-packages
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\site-packages</msg>
+<msg timestamp="20181004 11:29:23.627" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Prerequisites\TestDataLoading.robot': Importing test library 'builtin' failed: ImportError: No module named builtin
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python27\Lib
+  C:\Python27\DLLs
+  C:\Python27\Lib\lib-tk
+  C:\other-foolder-on-the-path
+  C:\Users\rnavakoti\PycharmProjects\RobotTest
+  C:\windows\SYSTEM32\python27.zip
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\DLLs
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\plat-win
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\lib-tk
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\Scripts
+  C:\Users\rnavakoti\AppData\Roaming\Python\Python27\site-packages
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv
+  C:\Users\rnavakoti\PycharmProjects\RobotTest\venv\lib\site-packages</msg>
+<msg timestamp="20181004 11:29:23.642" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Prerequisites\TestDataLoading.robot': Test library 'Datachange.py' does not exist.</msg>
+<msg timestamp="20181004 11:29:23.642" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Prerequisites\TestDataLoading.robot': Test library 'UtilityKeywords.py' does not exist.</msg>
+<msg timestamp="20181004 11:29:23.642" level="ERROR">Error in file 'C:\Users\rnavakoti\PycharmProjects\RobotTest\Sanity\Prerequisites\TestDataLoading.robot': Resource file '..\..\Keywords\JSON.robot' does not exist.</msg>
+</errors>
+</robot>

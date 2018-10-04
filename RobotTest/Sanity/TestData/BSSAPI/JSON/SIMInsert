@@ -1,0 +1,37 @@
+{
+  "data": {
+    "id": "SIMREPLACE",
+    "type": "sim-cards",
+    "attributes": {
+      "lifecycle-status": "available",
+      "sim-type": "u-multi",
+      "sim-technology": "USIM",
+      "pin-1" : "8446",
+      "pin-2" : "4794",
+      "primary-id": "SIMREPLACE",
+      "icc": "SIMREPLACE",
+      "puk-1" : "91963116",
+      "puk-2" : "41945441",
+      "imsi": "IMSIREPLACE",
+      "sku": "SKUREPLACE",
+      "valid-for": {
+        "start-datetime": "2017-10-30T12:00:00.000Z"
+      },
+      "characteristics": {"KIVALUE":"KIREPLACE","ZONE":"ZONEREPLACE"}
+    },
+    "relationships": {
+      "stock": {
+        "data": {
+          "id": "RESOURCESTOCKREPLACE",
+          "type": "resource-stocks"
+        }
+      },
+      "batch": {
+        "data": {
+          "id": "RESOURCEBATCHREPLACE",
+          "type": "resource-batches"
+        }
+      }
+    }
+  }
+}

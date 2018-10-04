@@ -1,0 +1,57 @@
+{
+"data": {
+"type": "customer-accounts-create",
+"relationships": {
+"new-instance": {
+"data": {
+"type": "customer-accounts",
+"id": "76066"
+}
+}
+}
+},
+"included": [
+{
+"type": "customer-accounts",
+"id": "76066",
+"attributes": {
+"name": "Qvantel Oy",
+"characteristics": {
+"CH_Create_BA_BP":"ba"
+},
+"valid-for": {
+"start-datetime": "2017-04-26T04:00:00Z",
+"end-datetime": "9999-12-31T23:59:59Z"
+}
+},
+"relationships": {
+"related-parties": {
+"data": [
+{
+"type": "party-relationships",
+"id": "67313"
+}
+]
+}
+}
+},
+{
+"type": "party-relationships",
+"id": "67313",
+"attributes": {
+"valid-for": {
+"start-datetime": "2017-04-26T04:00:00Z",
+"end-datetime": "9999-12-31T23:59:59Z"
+}
+},
+"relationships": {
+"party": {
+"data": {
+"type": "individuals",
+"id": "INDIVIDUALUID"
+}
+}
+}
+}
+]
+}

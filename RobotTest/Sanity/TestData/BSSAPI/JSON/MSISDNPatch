@@ -1,0 +1,9 @@
+{
+  "data": {
+    "type": "msisdns",
+    "id": "REPLACEMSISDN",
+    "attributes": {
+      "lifecycle-status": "in-use"
+    }
+  }
+}

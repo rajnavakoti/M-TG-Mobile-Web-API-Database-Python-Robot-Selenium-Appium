@@ -1,0 +1,9 @@
+{
+  "data": {
+  "type": "sim-cards",
+  "id": "REPLACEICCID",
+  "attributes": {
+      "lifecycle-status": "in-use"
+     }
+  }
+}

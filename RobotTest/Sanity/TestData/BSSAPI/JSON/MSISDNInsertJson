@@ -1,0 +1,30 @@
+{
+  "data": {
+    "id": "MSISDNREPLACE",
+    "type": "msisdns",
+    "attributes": {
+      "number": "MSISDNREPLACE",
+      "lifecycle-status": "available",
+      "number-type": "voice",
+      "primary-id": "MSISDNREPLACE",
+      "sku": "SKUREPLACE",
+      "valid-for": {
+        "start-datetime": "2018-03-12T12:00:00.000Z"
+      }
+    },
+    "relationships": {
+      "stock": {
+        "data": {
+          "id": "RESOURCESTOCKREPLACE",
+          "type": "resource-stocks"
+        }
+      },
+      "batch": {
+        "data": {
+          "id": "RESOURCEBATCHREPLACE",
+          "type": "resource-batches"
+        }
+      }
+    }
+  }
+}

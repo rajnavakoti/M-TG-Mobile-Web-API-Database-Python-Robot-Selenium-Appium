@@ -1,0 +1,83 @@
+{
+  "data": {
+    "type": "orders-create",
+    "relationships": {
+      "new-instance": {
+        "data": {
+          "id": "temp-orders-id-1",
+          "type": "orders"
+        }
+      }
+    }
+  },
+  "included": [
+    {
+      "id": "temp-orders-id-1",
+      "type": "orders",
+      "attributes": {
+        "reference-number": "REFNUMBERTOBEREPLACED",
+        "order-date": "2016-10-31T15:06:41Z",
+        "sales-info": {
+          "channel": "Dummy-Channel-Value",
+          "sales-type": "acquisition"
+        }
+      },
+      "relationships": {
+        "order-items": {
+          "data": [
+            {
+              "id": "temp-order-items-id-1",
+              "type": "order-items"
+            }
+          ]
+        },
+        "customer-account": {
+          "data": {
+            "id": "CUSTACCOUNTTOBEREPLACED",
+            "type": "customer-accounts"
+          }
+        }
+      }
+    }, {
+      "id": "temp-order-items-id-1",
+      "type": "order-items",
+      "attributes": {
+        "action": "terminate",
+        "quantity": 1,
+        "target-agreement-id": "TARGETAGGIDTOBEREPLACED"
+      },
+      "relationships": {
+        "order-product": {
+          "data": {
+            "id": "temp-order-products-id-1",
+            "type": "order-products"
+          }
+        },
+        "billing-account": {
+          "data": {
+            "id": "BILLINGACCOUNTTOBEREPLACED",
+            "type": "billing-accounts"
+          }
+        }
+      }
+    }, {
+      "id": "temp-order-products-id-1",
+      "type": "order-products",
+      "attributes": {
+        "inputted-characteristics": {
+                 "CH_Parent_ID": "CHPARENTIDTOBEREPLACED",
+                 "CH_Inventory_ID":"CHINVENTORYIDTOBEREPLACED"
+
+   }
+      },
+      "relationships": {
+        "product-offering": {
+          "data": {
+            "id": "PO_EIR_Device",
+            "type": "product-offerings"
+          }
+        }
+      }
+    }
+  ]
+}

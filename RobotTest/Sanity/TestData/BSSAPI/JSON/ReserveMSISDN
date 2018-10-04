@@ -1,0 +1,19 @@
+{
+"data": {
+"type": "msisdn-reservations-create",
+"attributes": {
+	"reserved-for": "RESERVEDFORREPLACE",
+"number-type":"voice",
+"end-datetime": "2018-10-29T11:00:00.000Z",
+"limit" : 1
+},
+"relationships": {
+"stock": {
+"data": {
+"type": "resource-stocks",
+"id":"RESOURCESTOCKREPLACE"
+}
+}
+}
+}
+}

@@ -1,0 +1,83 @@
+{
+"data": {
+"type": "orders-create",
+"relationships": {
+"new-instance": {
+"data": {
+"type": "orders",
+"id": "Orders_29055"
+}
+}
+}
+},
+"included": [
+{
+"type": "orders",
+"id": "Orders_29055",
+"attributes": {
+"reference-number": "REFNUMBERTOCHANAGE",
+"order-date": "2017-12-05T11:55:18",
+"sales-info": {
+"channel": "webshop",
+"sales-type": "acquisition"
+}
+},
+"relationships": {
+"order-items": {
+"data": [
+{
+"type": "order-items",
+"id": "OrderItem_29055"
+}
+]
+},
+"customer-account": {
+"data": {
+"type": "customer-accounts",
+"id": "CUSTUIDTOREPLACE"
+}
+}
+}
+},
+{
+"type": "order-items",
+"id": "OrderItem_29055",
+"attributes": {
+"lifecycle-status": "acknowledged",
+"quantity":1
+},
+"relationships": {
+"order-product": {
+"data": {
+"type": "order-products",
+"id": "OrderProduct_29055"
+}
+}
+}
+},
+{
+"type": "order-products",
+"id": "OrderProduct_29055",
+"attributes": {
+"inputted-characteristics": {
+"CH_Activation_model": "preactivation",
+"CH_NumberResource": "MSISDNTOREPLACE",
+"CH_ICC": "ICCTOREPLACE",
+"CH_RIM_MSISDN_OfferID":"OFFERIDTOREPLACE",
+"CH_Dealer_Contant_MSISDN":"9866404005",
+"CH_ReservedFor":"RESERVEFORTOREPLACE"
+}
+},
+"relationships": {
+"custom-prices": {
+"data": []
+},
+"product-offering": {
+"data": {
+"type": "product-offerings",
+"id": "PRODUCTOFFERTOREPLACE"
+}
+}
+}
+}
+]}
